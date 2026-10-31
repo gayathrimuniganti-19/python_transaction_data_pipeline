@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime outputs and databases
+output/
+output_*/
+*.db
+*.sqlite
+*.sqlite3
+*.wal
+*.shm
+
+# Generated large datasets (keep small sample fixtures)
+data/large.csv
+data/customers_large.csv
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
