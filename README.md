@@ -162,12 +162,4 @@ Performance is environment-dependent. Benchmark on the target machine using the 
 - A failed run is auditable but not automatically resumed; operational restart requires rerunning/reconciling the source.
 - Customer master data is optional; enable it to enforce referential integrity against an authoritative customer list.
 
-## GitHub submission checklist
 
-1. Create a clean virtual environment and install `requirements.txt`.
-2. Run `python -m pytest -q` and retain the actual terminal output.
-3. Run the sample pipeline and inspect all three output artifacts.
-4. Run the 100,000-row benchmark and retain its report.
-5. Confirm generated outputs, databases, caches, virtual environments and secrets are excluded by `.gitignore`.
-6. Push source, tests, sample data, README and dependency file to a **public** GitHub repository.
-7. Open the public repository in a private/incognito browser window and confirm it is accessible before submitting the URL.
